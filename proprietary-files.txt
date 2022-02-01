@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from OnePlus7Oxygen_14.P.32_OTA_032_all_2101280019_9b7f8af45
+# All unpinned blobs below are extracted from OnePlus7Oxygen_14.P.40_OTA_0400_all_2110211514_b5e667
 
 # ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
@@ -11,29 +11,177 @@ vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_Headset_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
-
-# Audio
+vendor/lib/soundfx/libqcompostprocbundle.so
+vendor/lib/soundfx/libqcomvisualizer.so
+vendor/lib/soundfx/libqcomvoiceprocessing.so
+vendor/lib/soundfx/libvisualizer.so
+vendor/lib/soundfx/libvolumelistener.so
 vendor/lib/hw/audio.primary.msmnile.so
+vendor/lib/libssrec.so
 vendor/lib64/hw/audio.primary.msmnile.so
 
-# Camera
-vendor/lib/camera/components/com.oneplus.node.bokeh.so
-vendor/lib/camera/components/com.oneplus.node.rtb.so
-vendor/lib/hw/camera.qcom.so
-vendor/lib/hw/com.qti.chi.override.so
+# Bluetooth - from sunfish
+vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|2aa101db92b5d447604da82e80241ca1ff90e1e0
+vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|d5fcb9c2cf5538b9c946b9263b144e714433a578
+vendor/lib/btaudio_offload_if.so|2df45d5adf93ae9eba40e3e7e21398499acc3b7a
+vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so|d476c3b775284adc58715d8c4eba611e57a14ae1
+# vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|f6eca6bfa66496498a5a9e17f9701670a931a28f
+vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|d2d55bf0a11eed058a76406cfa5d45d63a0a4f21
+# vendor/lib/hw/vendor.qti.hardware.bt_channel_avoidance@1.0-impl.so|c378868917b58a32de4b56b8db4db261ad5310d8
+vendor/lib/libbluetooth_audio_session_qti.so|409fe8e1e261e7b004e1df5851ea3ae9f13a4547
+vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so|5f907ebfb73087861b30cf1c69e07aeca2096620
+vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so|d8cc4680848db03ddcfd99a53cbe1b15b7b282da
+# vendor/lib/vendor.qti.hardware.bt_channel_avoidance@1.0.so|e9ca98f2ebe8214185e1ece31fe035080c0c4055
+vendor/lib64/btaudio_offload_if.so|15fccd6223460e4a86570e2afcfb328f9be04142
+vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|340b1be364b7bb00d9334ec5eb7a024b1ba8244d
+# vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.0-impl.so|1ed1d39a21f63f264eb5ee8ce61236b576de3931
+vendor/lib64/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so|73a21d7de95341f64f65859c995064ddcfb0a422
+# vendor/lib64/hw/vendor.qti.hardware.bt_channel_avoidance@1.0-impl.so|1d40e15715e3bb0b8a5a56c5a8d8e6a56da55b95
+vendor/lib64/libbluetooth_audio_session_qti.so|155de8211750484596107b6e0a206075c69b2027
+vendor/lib64/libbt-hidlclient.so|36e6ba270c948d2cc04a686026f51afd2ff29712
+vendor/lib64/libbtnv.so|086a227f793822ef3eed15aea21a207c68feb7a9
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|2bdd8a3fdcbc04f120c5647f2b289c73a132fb6b
+vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|6bc11d40eed839c52704483728f0e87c4e0f5d6f
+# vendor/lib64/vendor.qti.hardware.bt_channel_avoidance@1.0.so|1790304e928315e051855bccb7897d75fa41dc5e
+system_ext/lib64/libCameraMDMHelper.so
+system_ext/lib64/vendor.oneplus.hardware.camera@1.0.so
+system_ext/lib64/vendor.oneplus.hardware.camera@1.0-adapter-helper.so
+system_ext/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0.so
+system_ext/lib64/vendor.oneplus.hardware.CameraMDMHIDL@1.0-adapter-helper.so
+vendor/etc/camera/ashdr/iso617_4608x3456.ncf
+vendor/etc/camera/ashdr/ncf_pack.ncf
+vendor/etc/camera/ashdr/ncf_pack_imx371.ncf
+vendor/etc/camera/ashdr/ncf_pack_imx471.ncf
+vendor/etc/camera/ashdr/ncf_pack_imx481.ncf
+vendor/etc/camera/ashdr/ncf_pack_imx519.ncf
+vendor/etc/camera/ashdr/ncf_pack_imx586.ncf
+vendor/etc/camera/ashdr/ncf_pack_s5k3m5.ncf
+vendor/etc/camera/arccali.bin
+vendor/etc/camera/attribute.model
+vendor/etc/camera/calibrationOutput_uw.bin
+vendor/etc/camera/calibrationOutput_wt.bin
+vendor/etc/camera/distortion_result.bin
+vendor/etc/camera/distortion_result_7T_Golden_18865.bin
+vendor/etc/camera/goldResult_7T_uw.bin
+vendor/etc/camera/goldResult_7T_wt.bin
+vendor/etc/camera/goldResult_7Tpro_uw.bin
+vendor/etc/camera/goldResult_7Tpro_wt.bin
+vendor/etc/camera/OnePlus_7tPro_Golden_1.bin
+vendor/etc/camera/OnePlus_7tPro_Golden_2.bin
+vendor/etc/camera/vidhance_calibration
+vendor/etc/init/calibrationOutput_uw.rc
+vendor/etc/init/calibrationOutput_wt.rc
+vendor/etc/init/vl53l1.rc
+vendor/lib64/camera/components/com.oneplus.node.bokeh.so
+vendor/lib64/camera/components/com.oneplus.node.distortion.so
+vendor/lib64/camera/components/com.oneplus.node.eis.so
+vendor/lib64/camera/components/com.oneplus.node.memcpy.so
+vendor/lib64/camera/components/com.oneplus.node.preview.so
+vendor/lib64/camera/components/com.oneplus.node.rtb.so
+vendor/lib64/camera/components/com.oneplus.node.sat.so
+vendor/lib64/camera/components/com.oneplus.node.snapshotfusion.so
+vendor/lib64/camera/components/com.oneplus.node.supernightraw.so
+vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
+vendor/lib64/camera/components/com.qti.eisv2.so
+vendor/lib64/camera/components/com.qti.eisv3.so
+vendor/lib64/camera/components/com.qti.hvx.addconstant.so
+vendor/lib64/camera/components/com.qti.hvx.binning.so
+vendor/lib64/camera/components/com.qti.node.depth.so
+vendor/lib64/camera/components/com.qti.node.dummyrtb.so
+vendor/lib64/camera/components/com.qti.node.dummysat.so
+vendor/lib64/camera/components/com.qti.node.eisv2.so
+vendor/lib64/camera/components/com.qti.node.eisv3.so
+vendor/lib64/camera/components/com.qti.node.fcv.so
+vendor/lib64/camera/components/com.qti.node.gpu.so
+vendor/lib64/camera/components/com.qti.node.memcpy.so
+vendor/lib64/camera/components/com.qti.node.remosaic.so
+vendor/lib64/camera/components/com.qti.node.stich.so
+vendor/lib64/camera/components/com.qti.node.swregistration.so
+vendor/lib64/camera/components/com.qti.stats.aec.so
+vendor/lib64/camera/components/com.qti.stats.aecwrapper.so
+vendor/lib64/camera/components/com.qti.stats.af.so
+vendor/lib64/camera/components/com.qti.stats.afd.so
+vendor/lib64/camera/components/com.qti.stats.afwrapper.so
+vendor/lib64/camera/components/com.qti.stats.asd.so
+vendor/lib64/camera/components/com.qti.stats.awb.so
+vendor/lib64/camera/components/com.qti.stats.awbwrapper.so
+vendor/lib64/camera/components/com.qti.stats.haf.so
+vendor/lib64/camera/components/com.qti.stats.hafoverride.so
+vendor/lib64/camera/components/com.qti.stats.localhistogram.so
+vendor/lib64/camera/components/com.qti.stats.pdlib.so
+vendor/lib64/camera/components/com.qti.stats.pdlibsony.so
+vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so
+vendor/lib64/camera/components/com.qtistatic.stats.aec.so
+vendor/lib64/camera/components/com.qtistatic.stats.af.so
+vendor/lib64/camera/components/com.qtistatic.stats.awb.so
+vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so
+vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so
+vendor/lib64/camera/components/libdepthmapwrapper.so
+vendor/lib64/camera/com.qti.sensor.gc5035.so
+vendor/lib64/camera/com.qti.sensor.imx371.so
+vendor/lib64/camera/com.qti.sensor.imx471.so
+vendor/lib64/camera/com.qti.sensor.imx481.so
+vendor/lib64/camera/com.qti.sensor.imx586.so
+vendor/lib64/camera/com.qti.sensor.s5k3m5.so
 vendor/lib64/camera/com.qti.sensormodule.gcoreinc_gc5035.bin
 vendor/lib64/camera/com.qti.sensormodule.semco_imx586.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_imx471.bin
+vendor/lib64/camera/com.qti.sensormodule.sunny_imx520.bin
+vendor/lib64/camera/com.qti.tuned.default.bin
 vendor/lib64/camera/com.qti.tuned.gcoreinc_gc5035.bin
 vendor/lib64/camera/com.qti.tuned.gcoreinc_gc5035_18821.bin
 vendor/lib64/camera/com.qti.tuned.semco_imx586.bin
 vendor/lib64/camera/com.qti.tuned.semco_imx586_18821.bin
 vendor/lib64/camera/com.qti.tuned.sunny_imx471.bin
 vendor/lib64/camera/com.qti.tuned.sunny_imx471_18821.bin
-vendor/lib64/camera/components/com.oneplus.node.bokeh.so
-vendor/lib64/camera/components/com.oneplus.node.rtb.so
+vendor/lib64/camera/fdconfigpreview.bin
+vendor/lib64/camera/fdconfigpreviewlite.bin
+vendor/lib64/camera/fdconfigvideo.bin
+vendor/lib64/camera/fdconfigvideolite.bin
 vendor/lib64/hw/camera.qcom.so
-vendor/lib64/hw/com.qti.chi.override.so
+vendor/lib64/goldResult.bin
+vendor/lib64/libSTDualCamCaptureWT.so
+vendor/lib64/libswregistrationalgo.so
+vendor/bin/hvdcp_opti
+vendor/lib64/libdpps.so
+
+# Dolby
+lib64/vendor.dolby.hardware.dms@2.0.so
+odm/etc/dolby/dax-default.xml
+odm/etc/media_codecs_dolby_audio.xml:vendor/etc/media_codecs_dolby_audio.xml
+-system_ext/app/OPOnlineConfig/OPOnlineConfig.apk
+-system_ext/app/OPSoundTuner/OPSoundTuner.apk|7eae0d738ca245825b64f9eb4d2add10ff2c1c82
+system_ext/etc/permissions/com.dolby.daxservice.xml
+system_ext/etc/permissions/com.oneplus.software.xml
+-system_ext/priv-app/daxService/daxService.apk
+
+vendor/bin/hw/vendor.dolby.hardware.dms@2.0-service
+vendor/etc/init/vendor.dolby.hardware.dms@2.0-service.rc
+vendor/lib/soundfx/libeffectproxy.so
+vendor/lib/soundfx/libswdap.so
+vendor/lib/soundfx/libswgamedap.so
+vendor/lib/libdapparamstorage.so
+vendor/lib/libdeccfg.so
+vendor/lib/libstagefright_soft_ac4dec.so
+vendor/lib/libstagefright_soft_ddpdec.so
+vendor/lib/libstagefrightdolby.so
+vendor/lib/vendor.dolby.hardware.dms@2.0.so
+vendor/lib64/soundfx/libeffectproxy.so
+vendor/lib64/soundfx/libswdap.so
+vendor/lib64/soundfx/libswgamedap.so
+vendor/lib64/libdapparamstorage.so
+vendor/lib64/libdeccfg.so
+vendor/lib64/libdlbdsservice.so
+vendor/lib64/libqtigef.so
+vendor/lib64/libstagefright_soft_ac4dec.so
+vendor/lib64/libstagefright_soft_ddpdec.so
+vendor/lib64/libstagefrightdolby.so
+vendor/lib64/vendor.dolby.hardware.dms@2.0.so
+vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
+
+# DSP
+vendor/bin/dspservice
+vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc
 
 # Fingerprint
 vendor/lib/hw/goodix.fod.msmnile.so
@@ -47,30 +195,47 @@ vendor/lib64/libgf_ud_hal.so
 vendor/lib64/libhvx_proxy_stub.so
 vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
 
-# Sensors
-vendor/etc/sensors/config/ak991x_polling_0.json
+# IFAA
+-system_ext/priv-app/IFAAService/IFAAService.apk;PRESIGNED
+vendor/lib64/vendor.oneplus.hardware.ifaa@2.0.so
+vendor/bin/hw/vendor.oneplus.hardware.ifaa@2.0-service
+vendor/etc/init/vendor.oneplus.hardware.ifaa@2.0-service.rc
+
+# ODM feature list
+odm/etc/odm_feature_list
 vendor/etc/sensors/config/ak991x_0.json
+vendor/etc/sensors/config/ak991x_polling_0.json
 vendor/etc/sensors/config/bmi26x_0.json
 vendor/etc/sensors/config/lps22hh_0.json
 vendor/etc/sensors/config/lsm6dsm_0.json
 vendor/etc/sensors/config/lsm6dsm_0_8g.json
 vendor/etc/sensors/config/mmc5603x_0.json
 vendor/etc/sensors/config/msmnile_ak991x_0.json
+vendor/etc/sensors/config/msmnile_bme680_0.json
 vendor/etc/sensors/config/msmnile_bmi26x_0.json
+vendor/etc/sensors/config/msmnile_bu52053nvx_0.json
+vendor/etc/sensors/config/msmnile_cm3526_0.json
 vendor/etc/sensors/config/msmnile_default_sensors.json
 vendor/etc/sensors/config/msmnile_dps368_0.json
+vendor/etc/sensors/config/msmnile_hdk_ak991x_0.json
+vendor/etc/sensors/config/msmnile_hdk_lsm6dso_0.json
 vendor/etc/sensors/config/msmnile_hdk_tmd2725_0.json
 vendor/etc/sensors/config/msmnile_irq.json
 vendor/etc/sensors/config/msmnile_lsm6dsm_0.json
+vendor/etc/sensors/config/msmnile_lsm6dso_0.json
 vendor/etc/sensors/config/msmnile_mmc5603x_0.json
 vendor/etc/sensors/config/msmnile_power_0.json
+vendor/etc/sensors/config/msmnile_qrd_2_lsm6dso_0.json
+vendor/etc/sensors/config/msmnile_qrd_ak991x_0.json
+vendor/etc/sensors/config/msmnile_qrd_lsm6dso_0.json
 vendor/etc/sensors/config/msmnile_qrd_tmd2725_0.json
+vendor/etc/sensors/config/msmnile_shtw2_0.json
 vendor/etc/sensors/config/msmnile_stk2232_0.json
 vendor/etc/sensors/config/msmnile_sx9324.json
 vendor/etc/sensors/config/msmnile_sx932x.json
 vendor/etc/sensors/config/msmnile_tcs3701.json
-vendor/etc/sensors/config/msmnile_tmd3702.json
 vendor/etc/sensors/config/msmnile_tmd2725_0.json
+vendor/etc/sensors/config/msmnile_tmd3702.json
 vendor/etc/sensors/config/sns_amd.json
 vendor/etc/sensors/config/sns_amd_sw_disabled.json
 vendor/etc/sensors/config/sns_amd_sw_enabled.json
@@ -79,6 +244,7 @@ vendor/etc/sensors/config/sns_basic_gestures.json
 vendor/etc/sensors/config/sns_bring_to_ear.json
 vendor/etc/sensors/config/sns_ccd.json
 vendor/etc/sensors/config/sns_ccd_v2_walk.json
+vendor/etc/sensors/config/sns_ccd_v3_1_walk.json
 vendor/etc/sensors/config/sns_ccd_v3_walk.json
 vendor/etc/sensors/config/sns_cm.json
 vendor/etc/sensors/config/sns_dae.json
@@ -88,6 +254,7 @@ vendor/etc/sensors/config/sns_distance_bound.json
 vendor/etc/sensors/config/sns_dpc.json
 vendor/etc/sensors/config/sns_facing.json
 vendor/etc/sensors/config/sns_fmv.json
+vendor/etc/sensors/config/sns_fmv_legacy.json
 vendor/etc/sensors/config/sns_free_fall.json
 vendor/etc/sensors/config/sns_geomag_rv.json
 vendor/etc/sensors/config/sns_gyro_cal.json
@@ -104,11 +271,28 @@ vendor/etc/sensors/config/sns_tilt_sw_disabled.json
 vendor/etc/sensors/config/sns_tilt_sw_enabled.json
 vendor/etc/sensors/config/sns_tilt_to_wake.json
 vendor/etc/sensors/config/sns_wrist_pedo.json
-vendor/etc/sensors/config/stk2232_0.json
 vendor/etc/sensors/config/sx9324_0.json
 vendor/etc/sensors/config/sx932x_0.json
 vendor/etc/sensors/config/tcs3701.json
-vendor/etc/sensors/config/tmd3702.json
 vendor/etc/sensors/sns_reg_config
 vendor/lib/sensors.ssc.so
-vendor/lib64/sensors.ssc.so
+vendor/etc/init/init_thermal-engine.rc
+vendor/etc/thermal-engine.conf
+
+# Touchpanel firmware
+vendor/firmware/tp/FW_18821_SY761.bin
+vendor/firmware/tp/FW_18857_S3706.img
+vendor/firmware/tp/FW_18865_S3706.img
+vendor/firmware/tp/FW_18865_S3706_NEW.img
+vendor/firmware/tp/FW_19801_SY761.bin
+vendor/firmware/tp/FW_19801_SY761_NEW.bin
+vendor/firmware/tp/FW_19861_SY761.bin
+vendor/firmware/tp/FW_19861_SY761_NEW.bin
+vendor/firmware/tp/LIMIT_18821_SY761.img
+vendor/firmware/tp/LIMIT_18857_S3706.img
+vendor/firmware/tp/LIMIT_18865_S3706.img
+vendor/firmware/tp/LIMIT_18865_S3706_NEW.img
+vendor/firmware/tp/LIMIT_19801_SY761.img
+vendor/firmware/tp/LIMIT_19801_SY761_NEW.img
+vendor/firmware/tp/LIMIT_19861_SY761.img
+vendor/firmware/tp/LIMIT_19861_SY761_NEW.img
